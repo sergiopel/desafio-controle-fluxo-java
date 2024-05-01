@@ -1,2 +1,24 @@
-/.idea
-/desafio-controle-fluxo.iml
+# Ignorar a pasta de configuração do IntelliJ IDEA
+.idea/
+
+# Ignorar arquivos de metadados do IntelliJ IDEA
+*.iml
+
+# Ignorar pastas de build/compilação
+target/
+build/
+
+# Ignorar arquivos compilados
+*.class
+
+# Ignorar arquivos temporários/sistema
+*.swp
+.DS_Store
+thumbs.db
+
+# Ignorar arquivos de empacotamento
+*.jar
+*.war
+
+# Ignorar arquivos de ambiente ou sensíveis
+.env
